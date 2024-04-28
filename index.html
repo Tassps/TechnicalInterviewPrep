@@ -1,13 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
-    <h1>This is a simple HTML + CSS template!</h1>
+  <body> 
+
+
+    <!-- Example Code -->
+    <div class="background">
+      <!--My navbar-->
+      <div class="border-bottom p-2">
+        <div class="navbar d-flex justify-content-between align-items-center">
+          <a href="https://rapidbounce.co/en/" target="_blank">
+            <img class="rounded-circle" width="50px" src=" https://media.licdn.com/dms/image/C4D0BAQFNOn3n31RRPQ/company-logo_200_200/0/1675262621745/rapidbounce_logo?e=2147483647&v=beta&t=-AfwTmiq71aDZ-T6xlY2z7V-Gey_RoYn2sY7_F7vWuU"/>
+          </a>
+          <div class="">
+            <a href="#" class="btn btn-primary m-2">Login</a>
+            <a href="https://www.linkedin.com/in/tassos-psimitis/" target="_blank">
+              <img class="rounded-circle" width="50px" src=" https://media.licdn.com/dms/image/D4D35AQGucSUYvA4wOA/profile-framedphoto-shrink_400_400/0/1687173848827?e=1714327200&v=beta&t=HPWc6tWqpXa9kysnzeSkb0EVy0vMb9f065EDMEP7ZmU" />
+            </a>
+          </div>
+        </div>
+      </div>
+    
+
+      <!--My flat pic, with title and descritpion-->
+      <div class="container">
+        <img src="https://storage.googleapis.com/afroditi-apartments-storage/filer_public_thumbnails/filer_public/e6/dd/e6dd6bef-cadd-4e76-a2da-363ff0b083bd/afroditiapartments-gallery_07.jpg__1200x800_q85_subsampling-2.jpg" class="w-100 rounded my-4">
+
+        <h1>Lovely Flat at Afroditi in Crete</h1>
+        <p>The four [4] standard studios of the complex, of which three are located on the 1st floor and one on the ground floor, occupy 25 sq.m. and a maximum capacity of 2 people, making it an ideal choice for couples. The spaces are neat and spotless, equipped with all the amenities you need on vacation, while the interior decoration and colors evoke an island, creating an atmosphere of peace and authenticity.</p>
+      </div>
+
+      <!--My form-->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <div class="container border rounded p-3 my-4">
+              <h2 class="m-3">Book this Flat</h2>
+              <form action="#">
+                <div class="m-3">
+                  <label for="" class="form-label">Arrival Date </label>
+                  <input type="text" class="form-control" placeholder="Write Arrival Date here"> 
+                </div>
+
+                <div class="m-3">
+                  <label for="" class="form-label">Departure Date</label>
+                  <input type="text" class="form-control" placeholder="Write Departure Date here"> 
+                </div>
+
+                <div class="m-3">
+                  <label for="" class="form-label">Mesagge</label>
+                  <input type="text" class="form-control" placeholder="Write your message here"> 
+                </div>
+                
+                <div class="m-3 my-4">
+                  <input type="submit" class="btn btn-info w-100"> 
+                </div> 
+                
+              </form>
+            </div>
+          </div>
+
+          <!--My Buttons-->
+          <div class="col-12 col-lg-4">
+            <div class="container border rounded p-3 my-4">
+              <h1 class="d-flex justify-content-center">Cards Payment</h1>
+              <div class="row my-3">
+                <button class="btn btn-warning"><i class="fas fa-credit-card"></i>  Tap to pay with Piraeus Bank</button>
+              </div>
+              <div class="row my-3">
+                <button class="btn btn-success text-black"><i class="fas fa-credit-card"></i>  Tap to pay with National Bank of Greece</button>
+              </div>
+              <div class="row my-3">
+                <button class="btn btn-danger text-black"><i class="fas fa-credit-card"></i>  Tap to pay with HSBC</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--My Footer-->
+    <div class="footer d-flex justify-content-between align-items-center">
+      <div class="footer-links d-flex align-items-center">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        This footer is made with <i class="fas fa-heart"></i> at rapidbounce
+      </div>
+    </div>
+    
+    <!-- End Example Code -->
   </body>
 </html>
